@@ -14,9 +14,9 @@ int main(){
         cout << "file could not be opened";
     }
     ins >> line;
-    for(line;line<0;line--){
+    for(line;line>0;line--){
         ins >> first >> last >> age;
-        cout << first << " "<< last<< " "<< age;
+        cout << first << " "<< last<< " "<< age<<endl;
     }
     ins.close();
 
